@@ -1,2 +1,2 @@
 # learn
-Learn java code
+The code written in the process of learning Java。

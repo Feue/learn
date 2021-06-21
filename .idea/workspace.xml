@@ -7,7 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-6-17" />
+    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-6-19">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/Lambda/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/StreamAPI/StreamAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Employee/EmployeeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,9 +58,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="2" />
-  </component>
   <component name="ProjectId" id="1r6hjjmka7zwwbwjdPnQNYaIVXX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -74,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Employee" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -91,11 +95,11 @@
       <recent name="DesignPattern" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\learn\src\main\java\Employee" />
       <recent name="F:\Java\learn\src\main" />
       <recent name="F:\Java\learn\src\main\java" />
       <recent name="F:\Java\learn\src\main\java\Advanced\ClassLoad" />
       <recent name="F:\Java\learn\src\main\resources" />
-      <recent name="F:\Java\learn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Java\learn\src\main\java" />
@@ -104,7 +108,7 @@
       <recent name="DesignPattern.Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProxyTest">
+  <component name="RunManager" selected="JUnit.StreamAPITest.test2">
     <configuration name="DirectMemoryOOM" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JVM.JMM.DirectMemoryOOM" />
       <module name="JavaLearn" />
@@ -135,32 +139,6 @@
     </configuration>
     <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Advanced.Proxy.ProxyTest" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Advanced.Proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectionTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.Reflection.ReflectionTest" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Advanced.Reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.Proxy.StaticProxyTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
@@ -242,31 +220,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassLoaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Advanced.Reflection.ClassLoad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Advanced.Reflection.ClassLoad" />
-      <option name="MAIN_CLASS_NAME" value="Advanced.Reflection.ClassLoad.ClassLoaderTest" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassLoaderTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LambdaTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advanced.Reflection.ClassLoad.*" />
+          <option name="PATTERN" value="Advanced.Lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Advanced.Reflection.ClassLoad" />
-      <option name="MAIN_CLASS_NAME" value="Advanced.Reflection.ClassLoad.ClassLoaderTest" />
+      <option name="PACKAGE_NAME" value="Advanced.Lambda" />
+      <option name="MAIN_CLASS_NAME" value="Advanced.Lambda.LambdaTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.Lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Advanced.Lambda" />
+      <option name="MAIN_CLASS_NAME" value="Advanced.Lambda.LambdaTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPITest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.StreamAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Advanced.StreamAPI" />
+      <option name="MAIN_CLASS_NAME" value="Advanced.StreamAPI.StreamAPITest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPITest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.StreamAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Advanced.StreamAPI" />
+      <option name="MAIN_CLASS_NAME" value="Advanced.StreamAPI.StreamAPITest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -281,19 +303,19 @@
       <item itemvalue="Application.TestTenuringThreshold" />
       <item itemvalue="Application.TestTenuringThreshold2" />
       <item itemvalue="Application.TestHandlePromotion" />
-      <item itemvalue="Application.ReflectionTest (1)" />
-      <item itemvalue="Application.StaticProxyTest" />
       <item itemvalue="Application.ProxyTest" />
-      <item itemvalue="JUnit.ClassLoaderTest.test2" />
-      <item itemvalue="JUnit.ClassLoaderTest" />
+      <item itemvalue="JUnit.LambdaTest.test1" />
+      <item itemvalue="JUnit.LambdaTest.test2" />
+      <item itemvalue="JUnit.StreamAPITest.test1" />
+      <item itemvalue="JUnit.StreamAPITest.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamAPITest.test2" />
+        <item itemvalue="JUnit.StreamAPITest.test1" />
+        <item itemvalue="JUnit.LambdaTest.test2" />
+        <item itemvalue="JUnit.LambdaTest.test1" />
         <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.StaticProxyTest" />
-        <item itemvalue="JUnit.ClassLoaderTest" />
-        <item itemvalue="JUnit.ClassLoaderTest.test2" />
-        <item itemvalue="Application.ReflectionTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -352,6 +374,7 @@
       <workItem from="1623914457958" duration="2896000" />
       <workItem from="1623917873435" duration="6102000" />
       <workItem from="1623942456797" duration="69000" />
+      <workItem from="1624258576947" duration="7257000" />
     </task>
     <task id="LOCAL-00001" summary="21-6-17">
       <created>1623942484710</created>
@@ -360,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623942484710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="21-6-19">
+      <created>1624258939834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624258939834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +412,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="21-6-17" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-6-17" />
+    <MESSAGE value="21-6-19" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-6-19" />
   </component>
 </project>
