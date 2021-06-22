@@ -4,9 +4,8 @@ import Employee.Employee;
 import Employee.EmployeeData;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -76,7 +75,7 @@ public class StreamAPITest {
         list.add(new Employee(1009, "Tom", 18, 10000));
         list.add(new Employee(1009, "Tom", 18, 10000));
         list.stream().distinct().forEach(System.out::println);
-        System.out.println();
+        System.out.println("*********************************");
 
         // (2) 映射
         // map(Function f) 接收一个函数作为参数，该函数会被应用到每个元素上，并将其映射成一个新的元素。
@@ -94,6 +93,22 @@ public class StreamAPITest {
         System.out.println();
         // flatMap(Function f) 接收一个函数作为参数，将流中的每个值都换成另一个流，然后把所有流连接成一个流
         strs.stream().flatMap(StreamAPITest::fromStringToStream).forEach(System.out::println);
+        System.out.println("*********************************");
+
+        // (3)排序
+        // sorted() 自然排序
+        List<Integer> list1 = Arrays.asList(12, 9, 20, 5);
+        list1.stream().sorted().forEach(System.out::println);
+        System.out.println();
+        // sorted(Comparator com) 定制排序
+        list.stream().sorted((e1, e2) -> {
+            int ageValue = Integer.compare(e1.getAge(), e2.getAge());
+            if (ageValue != 0) {
+                return ageValue;
+            } else {
+                return -Double.compare(e1.getSalary(), e2.getSalary());
+            }
+        }).forEach(System.out::println);
     }
 
     public static Stream<Character> fromStringToStream(String str) {
@@ -102,5 +117,61 @@ public class StreamAPITest {
             list.add(c);
         }
         return list.stream();
+    }
+
+    // 3. 终止操作
+    @Test
+    public void test3() {
+        // (1)匹配与查找
+        List<Employee> list = EmployeeData.getEmployees();
+        // allMatch(Predicate p) 检查是否匹配所有元素
+        // 练习：是否所有员工的年龄都大于18
+        boolean allMatch = list.stream().allMatch(e -> e.getAge() > 18);
+        System.out.println(allMatch);
+        // anyMatch(Predicate p) 检查是否匹配最少一个元素
+        // 练习：是否有员工的工资大于10000
+        boolean anyMatch = list.stream().anyMatch(e -> e.getSalary() > 10000);
+        System.out.println(anyMatch);
+        // noneMatch(Predicate p) 检查是否没有匹配的元素
+        // 练习：是否存在员工姓“雷”
+        boolean noneMatch = list.stream().noneMatch(e -> e.getName().startsWith("雷"));
+        System.out.println(noneMatch);
+        // findFirst(Predicate p) 返回第一个元素
+        System.out.println(list.stream().findFirst());
+        // findAny(Predicate p) 返回当前流中的任意元素
+        System.out.println(list.stream().findAny());
+        // count() 返回流中元素总数
+        System.out.println(list.stream().count());
+        // max(Comparator c) 返回流中最大值
+        Stream<Double> salaryStream = list.stream().map(Employee::getSalary);
+        Optional<Double> maxSalary = salaryStream.max(Double::compare);
+        System.out.println(maxSalary);
+        // min(Comparator c) 返回流中最小值
+        System.out.println(list.stream().min((e1, e2) -> Double.compare(e1.getSalary(), e2.getSalary())));
+        System.out.println();
+        // forEach(Consumer c) 内部迭代
+        list.stream().forEach(System.out::println);
+        System.out.println("*************************************");
+
+        // (2)规约
+        // reduce(T identity, BinaryOperator b) 可以将流中元素反复结合起来，得到一个值。返回 T
+        // 练习1：计算1-10的自然数的和
+        List<Integer> list1 = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        Integer sum = list1.stream().reduce(0, Integer::sum);
+        System.out.println(sum);
+        // reduce(BinaryOperator b) 可以将流中元素反复结合起来，得到一个值。返回 Optional<T>
+        // 练习2：计算公司所有员工工资的总和
+        Optional<Double> sum2 = list.stream().map(Employee::getSalary).reduce(Double::sum);
+        System.out.println(sum2);
+        System.out.println("***********************************");
+
+        // (3)收集
+        // collect(Collector c) 将流转换为其他形式。接收一个 Collector 接口的实现，用于给 Stream 中元素做汇总的方法
+        // 练习：查找工资大于 6000 的员工，结果返回一个 List 或 Set
+        List<Employee> employeeList = list.stream().filter(e -> e.getSalary() > 6000).collect(Collectors.toList());
+        employeeList.forEach(System.out::println);
+        System.out.println();
+        Set<Employee> employeeSet = list.stream().filter(e -> e.getSalary() > 6000).collect(Collectors.toSet());
+        employeeSet.forEach(System.out::println);
     }
 }

@@ -7,13 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-6-19">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/Lambda/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/StreamAPI/StreamAPITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Employee/EmployeeData.java" afterDir="false" />
+    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-6-21">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/Optional/Boy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/Optional/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/Optional/OptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/KMPTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/StreamAPI/StreamAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/StreamAPI/StreamAPITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <recent name="DesignPattern.Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamAPITest.test2">
+  <component name="RunManager" selected="JUnit.OptionalTest.test4">
     <configuration name="DirectMemoryOOM" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JVM.JMM.DirectMemoryOOM" />
       <module name="JavaLearn" />
@@ -137,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.Proxy.ProxyTest" />
+    <configuration name="KMPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.KMPTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advanced.Proxy.*" />
+          <option name="PATTERN" value="Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,65 +231,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advanced.Lambda.*" />
+          <option name="PATTERN" value="Advanced.Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Advanced.Lambda" />
-      <option name="MAIN_CLASS_NAME" value="Advanced.Lambda.LambdaTest" />
+      <option name="PACKAGE_NAME" value="Advanced.Optional" />
+      <option name="MAIN_CLASS_NAME" value="Advanced.Optional.OptionalTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advanced.Lambda.*" />
+          <option name="PATTERN" value="Advanced.Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Advanced.Lambda" />
-      <option name="MAIN_CLASS_NAME" value="Advanced.Lambda.LambdaTest" />
+      <option name="PACKAGE_NAME" value="Advanced.Optional" />
+      <option name="MAIN_CLASS_NAME" value="Advanced.Optional.OptionalTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAPITest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advanced.StreamAPI.*" />
+          <option name="PATTERN" value="Advanced.Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Advanced.StreamAPI" />
-      <option name="MAIN_CLASS_NAME" value="Advanced.StreamAPI.StreamAPITest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="Advanced.Optional" />
+      <option name="MAIN_CLASS_NAME" value="Advanced.Optional.OptionalTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAPITest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advanced.StreamAPI.*" />
+          <option name="PATTERN" value="Advanced.Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Advanced.StreamAPI" />
-      <option name="MAIN_CLASS_NAME" value="Advanced.StreamAPI.StreamAPITest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="Advanced.Optional" />
+      <option name="MAIN_CLASS_NAME" value="Advanced.Optional.OptionalTest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -303,19 +303,19 @@
       <item itemvalue="Application.TestTenuringThreshold" />
       <item itemvalue="Application.TestTenuringThreshold2" />
       <item itemvalue="Application.TestHandlePromotion" />
-      <item itemvalue="Application.ProxyTest" />
-      <item itemvalue="JUnit.LambdaTest.test1" />
-      <item itemvalue="JUnit.LambdaTest.test2" />
-      <item itemvalue="JUnit.StreamAPITest.test1" />
-      <item itemvalue="JUnit.StreamAPITest.test2" />
+      <item itemvalue="Application.KMPTest" />
+      <item itemvalue="JUnit.OptionalTest.test1" />
+      <item itemvalue="JUnit.OptionalTest.test2" />
+      <item itemvalue="JUnit.OptionalTest.test3" />
+      <item itemvalue="JUnit.OptionalTest.test4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamAPITest.test2" />
-        <item itemvalue="JUnit.StreamAPITest.test1" />
-        <item itemvalue="JUnit.LambdaTest.test2" />
-        <item itemvalue="JUnit.LambdaTest.test1" />
-        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="JUnit.OptionalTest.test4" />
+        <item itemvalue="JUnit.OptionalTest.test1" />
+        <item itemvalue="JUnit.OptionalTest.test3" />
+        <item itemvalue="JUnit.OptionalTest.test2" />
+        <item itemvalue="Application.KMPTest" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +374,9 @@
       <workItem from="1623914457958" duration="2896000" />
       <workItem from="1623917873435" duration="6102000" />
       <workItem from="1623942456797" duration="69000" />
-      <workItem from="1624258576947" duration="7257000" />
+      <workItem from="1624258576947" duration="7724000" />
+      <workItem from="1624328125711" duration="5605000" />
+      <workItem from="1624361081675" duration="4124000" />
     </task>
     <task id="LOCAL-00001" summary="21-6-17">
       <created>1623942484710</created>
@@ -390,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624258939834</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="21-6-21">
+      <created>1624288047487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624288047487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,6 +422,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="21-6-17" />
     <MESSAGE value="21-6-19" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-6-19" />
+    <MESSAGE value="21-6-21" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-6-21" />
   </component>
 </project>
