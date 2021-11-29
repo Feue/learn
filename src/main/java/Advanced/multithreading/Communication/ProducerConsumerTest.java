@@ -1,4 +1,4 @@
-package Advanced.Communication;
+package Advanced.multithreading.Communication;
 
 /**
  * 线程通信的应用：生产者/消费者问题

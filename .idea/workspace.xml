@@ -7,128 +7,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-6-22">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redis/RedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_21_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_23_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-9-15 redis">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/PipeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/ThreadGroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/ThreadPriorityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/practice/AAndB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLearn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/Communication/ProducerConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/Communication/ProducerConsumerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/ThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Foundation/Collection/Arrays_asList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Foundation/Collection/Arrays_asList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Annotation/AnnotationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Annotation/AnnotationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Annotation/Generic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Annotation/Generic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Annotation/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Annotation/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Annotation/MyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Annotation/MyAnnotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Annotation/MyAnnotations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Annotation/MyAnnotations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Annotation/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Annotation/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Annotation/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Annotation/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Clerk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Communication/Clerk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Communication/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/NumPrintTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Communication/NumPrintTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Communication/Number.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Communication/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/ProducerConsumerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Communication/ProducerConsumerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DateTime/CalendarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DateTime/CalendarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DateTime/DateFormatTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DateTime/DateFormatTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DateTime/DateTimeFormatterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DateTime/DateTimeFormatterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DateTime/DateTimeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DateTime/DateTimeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DateTime/JDK8DateTimeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DateTime/JDK8DateTimeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/LockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/LockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/ThreadTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/ThreadTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/ThreadTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/ThreadTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/ThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/excercise/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/excercise/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/excercise/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/excercise/AccountTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/excercise/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/DeadLock/excercise/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/IO/FileInputOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/IO/FileInputOutputStreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/IO/FileReaderWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/IO/FileReaderWriterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/IO/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/IO/FileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/IO/ObjectInputOutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/IO/ObjectInputOutputStreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/IO/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/IO/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/IO/RandomAccessFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/IO/RandomAccessFileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Network/InetAddressTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Network/InetAddressTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Network/TCPTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Network/TCPTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Network/TCPTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Network/TCPTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Network/TCPTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Network/TCPTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Network/UDPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Network/UDPTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Network/URLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Network/URLTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Network/URLTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Network/URLTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/OtherClass/OtherClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/OtherClass/OtherClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Reflection/ClassLoad/ClassLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Reflection/ClassLoad/ClassLoaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Reflection/NewInstanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Reflection/NewInstanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Reflection/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Reflection/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Reflection/ReflectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Reflection/ReflectionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Reflection/ReflectionTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Reflection/ReflectionTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Reflection/objectAnalyzer/ObjectAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Reflection/objectAnalyzer/ObjectAnalyzer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Reflection/objectAnalyzer/ObjectAnalyzerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/Reflection/objectAnalyzer/ObjectAnalyzerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/multithreading/CallableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/multithreading/CallableTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/multithreading/MRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/multithreading/MRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/multithreading/MThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/multithreading/MThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/multithreading/NumThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/multithreading/NumThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/multithreading/NumThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/multithreading/NumThread1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/multithreading/RunnableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/multithreading/RunnableTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/multithreading/ThreadNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/multithreading/ThreadNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/multithreading/ThreadPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/multithreading/ThreadPoolTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/multithreading/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Advanced/multithreading/ThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/LazySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/LazySingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza$PizzaStatus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza$PizzaStatus$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza$PizzaStatus$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza$PizzaStatus$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza$PizzaStatus$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza$PizzaStatus$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza$PizzaStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza$PizzaStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/PizzaDeliveryStrategy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/PizzaDeliveryStrategy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/PizzaDeliveryStrategy$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/PizzaDeliveryStrategy$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/PizzaDeliveryStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/PizzaDeliveryStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/PizzaDeliverySystemConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/PizzaDeliverySystemConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Singleton/SingletonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/BigDecimal/BigDecimalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/BigDecimal/BigDecimalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Collection/Arrays_asList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Collection/Arrays_asList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Collection/CollectionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Collection/CollectionsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Collection/Collections_toArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Collection/Collections_toArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Collection/PropertiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Collection/PropertiesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza$PizzaStatus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza$PizzaStatus$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza$PizzaStatus$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza$PizzaStatus$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza$PizzaStatus$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza$PizzaStatus$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza$PizzaStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza$PizzaStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Enum/Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics$Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics$Generator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics$GeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics$GeneratorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics$GeneratorImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics$GeneratorImpl2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics$Generic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics$Generic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Generics/generics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Interfaces/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Interfaces/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Foundation/Interfaces/EmployeeSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Foundation/Interfaces/EmployeeSortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/FinalizeEscapeGC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/FinalizeEscapeGC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/ReferenceCountingGC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/ReferenceCountingGC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/TestAllocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/TestAllocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/TestHandlePromotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/TestHandlePromotion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/TestPretenureSizeThreshold.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/TestPretenureSizeThreshold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/TestTenuringThreshold.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/TestTenuringThreshold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/GC/TestTenuringThreshold2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/GC/TestTenuringThreshold2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JMM/DirectMemoryOOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/JMM/DirectMemoryOOM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JMM/HeapOOM$OOMObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/JMM/HeapOOM$OOMObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JMM/HeapOOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/JMM/HeapOOM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JMM/JavaMethodAreaOOM$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/JMM/JavaMethodAreaOOM$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JMM/JavaMethodAreaOOM$OOMObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/JMM/JavaMethodAreaOOM$OOMObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JMM/JavaMethodAreaOOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/JMM/JavaMethodAreaOOM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JMM/JavaVMStackSOF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/JMM/JavaVMStackSOF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/JMM/RuntimeConstantPoolOOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JVM/JMM/RuntimeConstantPoolOOM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc1.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/EscapeCharacter/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/EscapeCharacter/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Reflection/arrays/CopyOfTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Reflection/arrays/CopyOfTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Reflection/methods/MethodTableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Reflection/methods/MethodTableTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/Communication/NumPrintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/NumPrintTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/Communication/ProducerConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/ProducerConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Clerk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/NumPrintTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/ProducerConsumerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +94,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -223,7 +115,20 @@
       <recent name="DesignPattern.Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadPoolTest">
+  <component name="RunManager" selected="Application.PipeTest">
+    <configuration name="AAndB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.practice.AAndB" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.multithreading.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DirectMemoryOOM" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JVM.JMM.DirectMemoryOOM" />
       <module name="JavaLearn" />
@@ -252,51 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.DeadLock.LockTest" />
+    <configuration name="PipeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.Communication.PipeTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advanced.DeadLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumPrintTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.Communication.NumPrintTest" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Advanced.Communication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.Communication.ProducerConsumerTest" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Advanced.Communication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="redis.RedisTest" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="redis.*" />
+          <option name="PATTERN" value="Advanced.multithreading.Communication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,8 +240,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadGroupTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.ThreadGroupTest" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.ThreadPoolTest" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPriorityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.ThreadPriorityTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
@@ -408,19 +300,19 @@
       <item itemvalue="Application.TestTenuringThreshold" />
       <item itemvalue="Application.TestTenuringThreshold2" />
       <item itemvalue="Application.TestHandlePromotion" />
-      <item itemvalue="Application.RedisTest" />
-      <item itemvalue="Application.LockTest" />
-      <item itemvalue="Application.NumPrintTest" />
-      <item itemvalue="Application.ProducerConsumerTest" />
       <item itemvalue="Application.ThreadPoolTest" />
+      <item itemvalue="Application.AAndB" />
+      <item itemvalue="Application.ThreadGroupTest" />
+      <item itemvalue="Application.ThreadPriorityTest" />
+      <item itemvalue="Application.PipeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PipeTest" />
+        <item itemvalue="Application.AAndB" />
+        <item itemvalue="Application.ThreadPriorityTest" />
+        <item itemvalue="Application.ThreadGroupTest" />
         <item itemvalue="Application.ThreadPoolTest" />
-        <item itemvalue="Application.ProducerConsumerTest" />
-        <item itemvalue="Application.NumPrintTest" />
-        <item itemvalue="Application.LockTest" />
-        <item itemvalue="Application.RedisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +376,7 @@
       <workItem from="1624361081675" duration="4201000" />
       <workItem from="1625187860525" duration="769000" />
       <workItem from="1631673919048" duration="6523000" />
-      <workItem from="1638150338109" duration="1861000" />
+      <workItem from="1638150338109" duration="8607000" />
     </task>
     <task id="LOCAL-00001" summary="21-6-17">
       <created>1623942484710</created>
@@ -514,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624373742852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="21-9-15 redis">
+      <created>1638152299296</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638152299296</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,6 +438,7 @@
     <MESSAGE value="21-6-19" />
     <MESSAGE value="21-6-21" />
     <MESSAGE value="21-6-22" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-6-22" />
+    <MESSAGE value="21-9-15 redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-9-15 redis" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package Advanced.Communication;
+package Advanced.multithreading.Communication;
 
 /**
  * 线程通信的例子：使用两个线程打印 1-100 。线程 1，线程 2 交替打印。
