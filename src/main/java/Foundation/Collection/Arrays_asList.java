@@ -33,32 +33,32 @@ public class Arrays_asList {
         System.out.println(array[0]); // 1
 
         // 使用集合的修改方法:add()、remove()、clear()会抛出异常。
-        List myList3 = Arrays.asList(1, 2, 3);
+        List<Integer> myList3 = Arrays.asList(1, 2, 3);
         //myList3.add(4);//运行时报错：UnsupportedOperationException
         //myList3.remove(1);//运行时报错：UnsupportedOperationException
         //myList3.clear();//运行时报错：UnsupportedOperationException
 
         // Arrays.asList() 方法返回的并不是 java.util.ArrayList ，而是 java.util.Arrays 的一个内部类,
         // 这个内部类并没有实现集合的修改方法或者说并没有重写这些方法。
-        List myList4 = Arrays.asList(1, 2, 3);
+        List<Integer> myList4 = Arrays.asList(1, 2, 3);
         System.out.println(myList4.getClass()); // class java.util.Arrays$ArrayList
 
         // 如何正确将数组转化为ArrayList
         // 1. 自己实现
-        Integer [] myArray5 = { 1, 2, 3 };
+        Integer[] myArray5 = { 1, 2, 3 };
         System.out.println(arrayToList(myArray5).getClass()); // class java.util.ArrayList
 
         // 2.最简便的方法(推荐)
-        List list = new ArrayList<>(Arrays.asList("a", "b", "c"));
+        List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c"));
         System.out.println(list);
 
         // 3.使用 Java8 的Stream(推荐)
-        Integer [] myArray6 = { 1, 2, 3 };
-        List myList6 = Arrays.stream(myArray6).collect(Collectors.toList());
+        Integer[] myArray6 = { 1, 2, 3 };
+        List<Integer> myList6 = Arrays.stream(myArray6).collect(Collectors.toList());
         System.out.println("myList6: "+myList6);
         // 基本类型也可以实现转换（依赖boxed的装箱操作）
-        int [] myArray7 = { 1, 2, 3 };
-        List myList7 = Arrays.stream(myArray7).boxed().collect(Collectors.toList());
+        int[] myArray7 = { 1, 2, 3 };
+        List<Integer> myList7 = Arrays.stream(myArray7).boxed().collect(Collectors.toList());
         System.out.println("myList7: "+myList7);
 
         // 4. 使用 Guava(推荐)
@@ -94,7 +94,6 @@ public class Arrays_asList {
     // 正确将数组转化为ArrayList
     static <T> List<T> arrayToList(final T[] array) {
         final List<T> l = new ArrayList<T>(array.length);
-
         for (final T s : array) {
             l.add(s);
         }

@@ -8,6 +8,24 @@ package Advanced.Communication;
  * @author Feue
  * @create 2021-05-29 20:55
  */
+public class ProducerConsumerTest {
+    public static void main(String[] args) {
+        Clerk clerk = new Clerk();
+
+        Producer p1 = new Producer(clerk);
+        Consumer c1 = new Consumer(clerk);
+        Consumer c2 = new Consumer(clerk);
+
+        p1.setName("生产者1");
+        c1.setName("消费者1");
+        c2.setName("消费者2");
+
+        p1.start();
+        c1.start();
+        c2.start();
+    }
+}
+
 class Clerk {
     private int productCount = 0;
 
@@ -15,10 +33,10 @@ class Clerk {
         if (productCount < 20) {
             productCount++;
             System.out.println(Thread.currentThread().getName()+": 生产第"+productCount+"个产品。");
-            notify();
+            this.notify();
         } else {
             try {
-                wait();
+                this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -29,10 +47,10 @@ class Clerk {
         if (productCount > 0) {
             System.out.println(Thread.currentThread().getName()+": 消费第"+productCount+"个产品。");
             productCount--;
-            notify();
+            this.notify();
         } else {
             try {
-                wait();
+                this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -79,23 +97,5 @@ class Consumer extends Thread {//消费者
             }
             clerk.consume();
         }
-    }
-}
-
-public class ProducerConsumerTest {
-    public static void main(String[] args) {
-        Clerk clerk = new Clerk();
-
-        Producer p1 = new Producer(clerk);
-        Consumer c1 = new Consumer(clerk);
-        Consumer c2 = new Consumer(clerk);
-
-        p1.setName("生产者1");
-        c1.setName("消费者1");
-        c2.setName("消费者2");
-
-        p1.start();
-        c1.start();
-        c2.start();
     }
 }
