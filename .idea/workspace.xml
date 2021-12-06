@@ -7,20 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-9-15 redis">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/PipeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/ThreadGroupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/ThreadPriorityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/practice/AAndB.java" afterDir="false" />
+    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-11-29 线程池与线程通信">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/AtomicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/SynchronizedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/Communication/NumPrintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/NumPrintTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/Communication/ProducerConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/ProducerConsumerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Clerk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/NumPrintTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Advanced/Communication/ProducerConsumerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/practice/AAndB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/practice/AAndB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +85,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -115,13 +106,26 @@
       <recent name="DesignPattern.Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PipeTest">
+  <component name="RunManager" selected="Application.AtomicTest">
     <configuration name="AAndB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.practice.AAndB" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Advanced.multithreading.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.AtomicTest" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,6 +167,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Advanced.multithreading.Communication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.SynchronizedTest" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,32 +257,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadGroupTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.ThreadGroupTest" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Advanced.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.ThreadPoolTest" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Advanced.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadPriorityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.ThreadPriorityTest" />
       <module name="JavaLearn" />
@@ -279,15 +270,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -300,19 +289,19 @@
       <item itemvalue="Application.TestTenuringThreshold" />
       <item itemvalue="Application.TestTenuringThreshold2" />
       <item itemvalue="Application.TestHandlePromotion" />
-      <item itemvalue="Application.ThreadPoolTest" />
       <item itemvalue="Application.AAndB" />
-      <item itemvalue="Application.ThreadGroupTest" />
       <item itemvalue="Application.ThreadPriorityTest" />
       <item itemvalue="Application.PipeTest" />
+      <item itemvalue="Application.SynchronizedTest" />
+      <item itemvalue="Application.AtomicTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicTest" />
+        <item itemvalue="Application.SynchronizedTest" />
         <item itemvalue="Application.PipeTest" />
         <item itemvalue="Application.AAndB" />
         <item itemvalue="Application.ThreadPriorityTest" />
-        <item itemvalue="Application.ThreadGroupTest" />
-        <item itemvalue="Application.ThreadPoolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +365,11 @@
       <workItem from="1624361081675" duration="4201000" />
       <workItem from="1625187860525" duration="769000" />
       <workItem from="1631673919048" duration="6523000" />
-      <workItem from="1638150338109" duration="8607000" />
+      <workItem from="1638150338109" duration="8928000" />
+      <workItem from="1638497764144" duration="2267000" />
+      <workItem from="1638755608601" duration="62000" />
+      <workItem from="1638755713837" duration="38000" />
+      <workItem from="1638755774703" duration="3197000" />
     </task>
     <task id="LOCAL-00001" summary="21-6-17">
       <created>1623942484710</created>
@@ -413,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638152299296</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="21-11-29 线程池与线程通信">
+      <created>1638168309942</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638168309942</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,6 +439,7 @@
     <MESSAGE value="21-6-21" />
     <MESSAGE value="21-6-22" />
     <MESSAGE value="21-9-15 redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-9-15 redis" />
+    <MESSAGE value="21-11-29 线程池与线程通信" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-11-29 线程池与线程通信" />
   </component>
 </project>

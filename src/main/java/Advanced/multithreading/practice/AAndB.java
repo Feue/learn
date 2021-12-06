@@ -20,7 +20,7 @@ public class AAndB {
                         e.printStackTrace();
                     }
                     obj.notify();
-                    System.out.print("a ");
+                    System.out.println(Thread.currentThread().getName()+" a");
                     try {
                         obj.wait();
                     } catch (InterruptedException e) {
@@ -39,7 +39,7 @@ public class AAndB {
                         e.printStackTrace();
                     }
                     obj.notify();
-                    System.out.print("b ");
+                    System.out.println(Thread.currentThread().getName()+" b");
                     try {
                         obj.wait();
                     } catch (InterruptedException e) {
