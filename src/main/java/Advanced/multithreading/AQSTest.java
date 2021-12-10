@@ -16,14 +16,11 @@ public class AQSTest {
 
     private static void lockTest() throws InterruptedException {
         MyLock lock = new MyLock();
-        Runnable runnable = new Runnable() {
-            @Override
-            public void run() {
-                for (int i = 0; i < 1000; i++) {
-                    lock.lock();
-                    count++;
-                    lock.unlock();
-                }
+        Runnable runnable = () -> {
+            for (int i = 0; i < 1000; i++) {
+                lock.lock();
+                AQSTest.count++;
+                lock.unlock();
             }
         };
         Thread t1 = new Thread(runnable);
@@ -32,7 +29,7 @@ public class AQSTest {
         t2.start();
         t1.join();
         t2.join();
-        System.out.println(count);
+        System.out.println(AQSTest.count);
     }
 
     private static void semTest() {
@@ -40,24 +37,36 @@ public class AQSTest {
         MySem bSem = new MySem(0);
         new Thread(() -> {
             for (int i = 0; i < 5; i++) {
+                aSem.acquireShared(2);
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                aSem.acquireShared(2);
                 System.out.print("a ");
                 bSem.releaseShared(2);
             }
         }).start();
         new Thread(() -> {
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 5; i++) {
+                bSem.acquireShared(1);
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
+                System.out.print("b ");
+                aSem.releaseShared(1);
+            }
+        }).start();
+        new Thread(() -> {
+            for (int i = 0; i < 5; i++) {
                 bSem.acquireShared(1);
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 System.out.print("b ");
                 aSem.releaseShared(1);
             }
@@ -68,11 +77,19 @@ public class AQSTest {
 class MyLock extends AbstractQueuedSynchronizer {
     @Override
     protected boolean tryAcquire(int arg) {
-        return compareAndSetState(0, 1);
+        if (compareAndSetState(0, 1)) {
+            setExclusiveOwnerThread(Thread.currentThread());
+            return true;
+        }
+        return false;
     }
 
     @Override
     protected boolean tryRelease(int arg) {
+        if (Thread.currentThread() != getExclusiveOwnerThread()) {
+            throw new IllegalMonitorStateException();
+        }
+        setExclusiveOwnerThread(null);
         setState(0);
         return true;
     }
@@ -93,7 +110,7 @@ class MySem extends AbstractQueuedSynchronizer {
 
     @Override
     protected int tryAcquireShared(int arg) {
-        while (true) {
+        for (;;) {
             int available = getState();
             int remaining = available-arg;
             if (remaining < 0 || compareAndSetState(available, remaining)) {
@@ -104,7 +121,7 @@ class MySem extends AbstractQueuedSynchronizer {
 
     @Override
     protected boolean tryReleaseShared(int arg) {
-        while (true) {
+        for (;;) {
             int current = getState();
             int next = current+arg;
             if (compareAndSetState(current, next)) {

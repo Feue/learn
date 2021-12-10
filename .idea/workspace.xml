@@ -7,9 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-12-06 synchronized,cas与atomic原子类">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/AQSTest.java" afterDir="false" />
+    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-12-06 AQS">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/BlockingQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/AQSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/AQSTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,20 +106,7 @@
       <recent name="DesignPattern.Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AQSTest">
-    <configuration name="AAndB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.practice.AAndB" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Advanced.multithreading.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BlockingQueueTest">
     <configuration name="AQSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.AQSTest" />
       <module name="JavaLearn" />
@@ -133,6 +122,19 @@
     </configuration>
     <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.AtomicTest" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlockingQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.BlockingQueueTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
@@ -287,19 +289,19 @@
       <item itemvalue="Application.TestTenuringThreshold" />
       <item itemvalue="Application.TestTenuringThreshold2" />
       <item itemvalue="Application.TestHandlePromotion" />
-      <item itemvalue="Application.AAndB" />
       <item itemvalue="Application.PipeTest" />
       <item itemvalue="Application.SynchronizedTest" />
       <item itemvalue="Application.AtomicTest" />
       <item itemvalue="Application.AQSTest" />
+      <item itemvalue="Application.BlockingQueueTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlockingQueueTest" />
         <item itemvalue="Application.AQSTest" />
         <item itemvalue="Application.AtomicTest" />
         <item itemvalue="Application.SynchronizedTest" />
         <item itemvalue="Application.PipeTest" />
-        <item itemvalue="Application.AAndB" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +369,10 @@
       <workItem from="1638497764144" duration="2267000" />
       <workItem from="1638755608601" duration="62000" />
       <workItem from="1638755713837" duration="38000" />
-      <workItem from="1638755774703" duration="11500000" />
+      <workItem from="1638755774703" duration="12280000" />
+      <workItem from="1638845688071" duration="7817000" />
+      <workItem from="1638951473689" duration="609000" />
+      <workItem from="1639038335771" duration="2597000" />
     </task>
     <task id="LOCAL-00001" summary="21-6-17">
       <created>1623942484710</created>
@@ -418,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638767357707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="21-12-06 AQS">
+      <created>1638785512764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638785512764</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,6 +458,7 @@
     <MESSAGE value="21-9-15 redis" />
     <MESSAGE value="21-11-29 线程池与线程通信" />
     <MESSAGE value="21-12-06 synchronized,cas与atomic原子类" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-12-06 synchronized,cas与atomic原子类" />
+    <MESSAGE value="21-12-06 AQS" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-12-06 AQS" />
   </component>
 </project>
