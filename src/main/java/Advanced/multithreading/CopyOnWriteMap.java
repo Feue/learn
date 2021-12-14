@@ -31,6 +31,20 @@ public class CopyOnWriteMap<K, V> implements Map<K, V>, Cloneable {
     }
 
     @Override
+    public boolean replace(K key, V oldValue, V newValue) {
+        synchronized (this) {
+            Map<K, V> newMap = new HashMap<>(this.internalMap);
+            V val = newMap.get(key);
+            if (val != oldValue) {
+                return false;
+            }
+            newMap.put(key, newValue);
+            this.internalMap = newMap;
+            return true;
+        }
+    }
+
+    @Override
     public V get(Object key) {
         return this.internalMap.get(key);
     }
