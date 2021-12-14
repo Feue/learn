@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-12-06 AQS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/BlockingQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-12-09 阻塞队列">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/CopyOnWriteMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/AQSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/AQSTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,6 +371,8 @@
       <workItem from="1638845688071" duration="7817000" />
       <workItem from="1638951473689" duration="609000" />
       <workItem from="1639038335771" duration="2597000" />
+      <workItem from="1639100340528" duration="2862000" />
+      <workItem from="1639448336643" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="21-6-17">
       <created>1623942484710</created>
@@ -430,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638785512764</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="21-12-09 阻塞队列">
+      <created>1639105637027</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639105637027</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,6 +466,7 @@
     <MESSAGE value="21-11-29 线程池与线程通信" />
     <MESSAGE value="21-12-06 synchronized,cas与atomic原子类" />
     <MESSAGE value="21-12-06 AQS" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-12-06 AQS" />
+    <MESSAGE value="21-12-09 阻塞队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-12-09 阻塞队列" />
   </component>
 </project>
