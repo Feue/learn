@@ -7,16 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-12-14 自己实现一个CopyOnWriteMap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/ExchangerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/SemaphoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-12-14 Semaphore and Exchanger">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/CountDownLatchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLearn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,9 +105,9 @@
       <recent name="DesignPattern.Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExchangerTest">
-    <configuration name="BlockingQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.BlockingQueueTest" />
+  <component name="RunManager" selected="Application.CountDownLatchTest">
+    <configuration name="CopyOnWriteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.CopyOnWriteTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
@@ -126,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyOnWriteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.CopyOnWriteTest" />
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.Communication.CountDownLatchTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advanced.multithreading.*" />
+          <option name="PATTERN" value="Advanced.multithreading.Communication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,19 +284,19 @@
       <item itemvalue="Application.TestTenuringThreshold" />
       <item itemvalue="Application.TestTenuringThreshold2" />
       <item itemvalue="Application.TestHandlePromotion" />
-      <item itemvalue="Application.BlockingQueueTest" />
       <item itemvalue="Application.CopyOnWriteTest" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.SemaphoreTest" />
       <item itemvalue="Application.ExchangerTest" />
+      <item itemvalue="Application.CountDownLatchTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.ExchangerTest" />
         <item itemvalue="Application.SemaphoreTest" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.CopyOnWriteTest" />
-        <item itemvalue="Application.BlockingQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +370,7 @@
       <workItem from="1639038335771" duration="2597000" />
       <workItem from="1639100340528" duration="2862000" />
       <workItem from="1639448336643" duration="7753000" />
-      <workItem from="1639619922439" duration="10761000" />
+      <workItem from="1639619922439" duration="14915000" />
     </task>
     <task id="LOCAL-00001" summary="21-6-17">
       <created>1623942484710</created>
@@ -456,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639461906349</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="21-12-14 Semaphore and Exchanger">
+      <created>1639638583107</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639638583107</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,6 +488,7 @@
     <MESSAGE value="21-12-09 阻塞队列" />
     <MESSAGE value="21-12-14 CopyOnWrite" />
     <MESSAGE value="21-12-14 自己实现一个CopyOnWriteMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-12-14 自己实现一个CopyOnWriteMap" />
+    <MESSAGE value="21-12-14 Semaphore and Exchanger" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-12-14 Semaphore and Exchanger" />
   </component>
 </project>
