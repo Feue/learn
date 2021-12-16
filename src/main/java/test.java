@@ -2,12 +2,12 @@ import java.util.*;
 
 public class test {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int s = in.nextInt();
-        int v = in.nextInt();
-        int t = (s+v-1)/v+10;
-        int h = t/60%24;
-        int m = t%60;
+        var in = new Scanner(System.in);
+        var s = in.nextInt();
+        var v = in.nextInt();
+        var t = (s+v-1)/v+10;
+        var h = t/60%24;
+        var m = t%60;
         if(m == 0) h = (32-h)%24;
         else h = (31-h)%24;
         System.out.printf("%02d:%02d\n", h, 60-m);
@@ -26,12 +26,7 @@ public class test {
                 list.add(val[i][j]);
             }
         }
-        Collections.sort(list, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o1-o2;
-            }
-        });
+        Collections.sort(list, (o1, o2) -> o1-o2);
         return list.get(k-1);
     }
 }

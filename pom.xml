@@ -19,6 +19,14 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>https://maven.aliyun.com/nexus/content/repositories/central</url>
+        </repository>
+    </repositories>
+
     <properties>
         <java.version>11</java.version>
     </properties>
