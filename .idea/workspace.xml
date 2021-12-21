@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-12-16 CountDownLatch">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/Communication/PhaserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="27d7327e-f215-4aa6-928d-56a2b44f0571" name="Default Changelist" comment="21-12-20 CyclicBarrier and Phaser">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Advanced/multithreading/ForkJoinTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +46,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/Advanced/Network/TCPTest1.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="JavaLearn/invalid/Kotlin" />
+    </ignored-facets>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -107,7 +110,7 @@
       <recent name="DesignPattern.Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PhaserTest">
+  <component name="RunManager" selected="Application.ForkJoinTest">
     <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.Communication.CountDownLatchTest" />
       <module name="JavaLearn" />
@@ -161,6 +164,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForkJoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.ForkJoinTest" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Advanced.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaMethodAreaOOM" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JVM.JMM.JavaMethodAreaOOM" />
       <module name="JavaLearn" />
@@ -177,19 +193,6 @@
     </configuration>
     <configuration name="PhaserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.Communication.PhaserTest" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Advanced.multithreading.Communication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.multithreading.Communication.SemaphoreTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
@@ -290,19 +293,19 @@
       <item itemvalue="Application.TestTenuringThreshold" />
       <item itemvalue="Application.TestTenuringThreshold2" />
       <item itemvalue="Application.TestHandlePromotion" />
-      <item itemvalue="Application.SemaphoreTest" />
       <item itemvalue="Application.ExchangerTest" />
       <item itemvalue="Application.CountDownLatchTest" />
       <item itemvalue="Application.CyclicBarrierTest" />
       <item itemvalue="Application.PhaserTest" />
+      <item itemvalue="Application.ForkJoinTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForkJoinTest" />
         <item itemvalue="Application.PhaserTest" />
         <item itemvalue="Application.CyclicBarrierTest" />
         <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.ExchangerTest" />
-        <item itemvalue="Application.SemaphoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +380,9 @@
       <workItem from="1639100340528" duration="2862000" />
       <workItem from="1639448336643" duration="7753000" />
       <workItem from="1639619922439" duration="16300000" />
-      <workItem from="1639966289367" duration="2658000" />
+      <workItem from="1639966289367" duration="4051000" />
+      <workItem from="1640053677861" duration="201000" />
+      <workItem from="1640053917998" duration="4779000" />
     </task>
     <task id="LOCAL-00001" summary="21-6-17">
       <created>1623942484710</created>
@@ -477,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639646724389</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="21-12-20 CyclicBarrier and Phaser">
+      <created>1639972992007</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639972992007</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,6 +523,7 @@
     <MESSAGE value="21-12-14 自己实现一个CopyOnWriteMap" />
     <MESSAGE value="21-12-16 Semaphore and Exchanger" />
     <MESSAGE value="21-12-16 CountDownLatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-12-16 CountDownLatch" />
+    <MESSAGE value="21-12-20 CyclicBarrier and Phaser" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-12-20 CyclicBarrier and Phaser" />
   </component>
 </project>
